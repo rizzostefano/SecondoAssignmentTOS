@@ -24,6 +24,12 @@ public class UserTest {
     }
 
     @Test
+    public void testUser() {
+        User u1 = new User(U1);
+        assertEquals(U1.getUserName(), u1.getUserName());
+    }
+
+    @Test
     public void testGetBirthDate() {
         assertEquals("1973-05-17", U1.getBirthDate().toString());
         assertEquals("2007-09-05", U2.getBirthDate().toString());
