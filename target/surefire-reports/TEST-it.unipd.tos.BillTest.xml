@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="it.unipd.tos.MenuItemTest" time="0" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="it.unipd.tos.BillTest" time="0.072" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -51,7 +51,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase name="testGetType" classname="it.unipd.tos.MenuItemTest" time="0"/>
-  <testcase name="testGetName" classname="it.unipd.tos.MenuItemTest" time="0"/>
-  <testcase name="testGetPrice" classname="it.unipd.tos.MenuItemTest" time="0"/>
+  <testcase name="getOrderPrice_ValidValues_NoDiscount_NoCommission" classname="it.unipd.tos.BillTest" time="0.008"/>
+  <testcase name="getOrderPrice_ValidValues_NoDiscount_WithCommission" classname="it.unipd.tos.BillTest" time="0"/>
 </testsuite>

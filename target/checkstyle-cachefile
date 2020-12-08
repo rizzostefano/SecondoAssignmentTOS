@@ -1,9 +1,10 @@
-#Tue Dec 08 10:53:53 CET 2020
-/mnt/c/Users/Stefano/new-icecream-shop-manager/SecondoAssignmentTOS/src/main/java/it/unipd/tos/model/MenuItem.java=1607421181620
+#Tue Dec 08 12:03:35 CET 2020
+/mnt/c/Users/Stefano/new-icecream-shop-manager/SecondoAssignmentTOS/src/main/java/it/unipd/tos/model/MenuItem.java=1607421293503
 configuration*?=8C4C10C83394C6428BE172087D133B78D504041F
-/mnt/c/Users/Stefano/new-icecream-shop-manager/SecondoAssignmentTOS/src/main/java/it/unipd/tos/business/exception/TooManyItemException.java=1607421173240
-/mnt/c/Users/Stefano/new-icecream-shop-manager/SecondoAssignmentTOS/src/main/java/it/unipd/tos/business/exception/NegativeBillException.java=1607421149682
-/mnt/c/Users/Stefano/new-icecream-shop-manager/SecondoAssignmentTOS/src/main/java/it/unipd/tos/business/exception/NoItemException.java=1607421162255
-/mnt/c/Users/Stefano/new-icecream-shop-manager/SecondoAssignmentTOS/src/main/java/it/unipd/tos/business/exception/NegativeQuantityException.java=1607421156769
-/mnt/c/Users/Stefano/new-icecream-shop-manager/SecondoAssignmentTOS/src/main/java/it/unipd/tos/model/User.java=1607421187938
-/mnt/c/Users/Stefano/new-icecream-shop-manager/SecondoAssignmentTOS/src/main/java/it/unipd/tos/business/exception/RestaurantBillException.java=1607421168013
+/mnt/c/Users/Stefano/new-icecream-shop-manager/SecondoAssignmentTOS/src/main/java/it/unipd/tos/business/exception/TooManyItemException.java=1607421293500
+/mnt/c/Users/Stefano/new-icecream-shop-manager/SecondoAssignmentTOS/src/main/java/it/unipd/tos/business/Bill.java=1607425407673
+/mnt/c/Users/Stefano/new-icecream-shop-manager/SecondoAssignmentTOS/src/main/java/it/unipd/tos/business/exception/NegativeBillException.java=1607421293494
+/mnt/c/Users/Stefano/new-icecream-shop-manager/SecondoAssignmentTOS/src/main/java/it/unipd/tos/business/exception/NoItemException.java=1607421293497
+/mnt/c/Users/Stefano/new-icecream-shop-manager/SecondoAssignmentTOS/src/main/java/it/unipd/tos/business/exception/NegativeQuantityException.java=1607421293496
+/mnt/c/Users/Stefano/new-icecream-shop-manager/SecondoAssignmentTOS/src/main/java/it/unipd/tos/model/User.java=1607422467677
+/mnt/c/Users/Stefano/new-icecream-shop-manager/SecondoAssignmentTOS/src/main/java/it/unipd/tos/business/exception/RestaurantBillException.java=1607421293499

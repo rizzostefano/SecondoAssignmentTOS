@@ -3,6 +3,7 @@ it/unipd/tos/business/exception/NoItemException.class
 it/unipd/tos/model/MenuItem.class
 it/unipd/tos/model/MenuItem$items.class
 it/unipd/tos/business/exception/TooManyItemException.class
+it/unipd/tos/business/Bill.class
 it/unipd/tos/business/exception/NegativeBillException.class
 it/unipd/tos/business/exception/NegativeQuantityException.class
 it/unipd/tos/model/User.class

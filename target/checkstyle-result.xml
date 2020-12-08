@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="6.11.2">
+<file name="/mnt/c/Users/Stefano/new-icecream-shop-manager/SecondoAssignmentTOS/src/main/java/it/unipd/tos/business/Bill.java">
+</file>
 <file name="/mnt/c/Users/Stefano/new-icecream-shop-manager/SecondoAssignmentTOS/src/main/java/it/unipd/tos/business/exception/NegativeBillException.java">
 </file>
 <file name="/mnt/c/Users/Stefano/new-icecream-shop-manager/SecondoAssignmentTOS/src/main/java/it/unipd/tos/business/exception/NegativeQuantityException.java">
