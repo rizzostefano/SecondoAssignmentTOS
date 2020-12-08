@@ -14,22 +14,15 @@ public class User {
 
     public User(String userName, String userSurname, 
     LocalDate userBirthDate) {
-        /*if (userName == null || userName.equals("")) {
-            throw new IllegalArgumentException("No name has been" 
-            +" declared for the user");
-        }
-        if (userSurname == null || userName.equals("")) {
-            throw new IllegalArgumentException("No surname has been"
-            + " declared for the user");
-        } 
-        if ((userBirthDate == null) || (Period.between(
-            userBirthDate,LocalDate.now()).isNegative())) {
-            throw new IllegalArgumentException("No valid data has"
-             + "been entered");
-        }*/
         name = userName;
         surname = userSurname;
         birthDate = userBirthDate;
+    }
+
+    public User(User u) {
+        name=u.name;
+        surname=u.surname;
+        birthDate=u.birthDate;
     }
 
     public String getUserName() {
