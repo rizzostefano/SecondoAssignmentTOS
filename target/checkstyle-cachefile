@@ -1,10 +1,10 @@
-#Tue Dec 08 12:32:33 CET 2020
+#Tue Dec 08 15:22:33 CET 2020
 /mnt/c/Users/Stefano/new-icecream-shop-manager/SecondoAssignmentTOS/src/main/java/it/unipd/tos/model/MenuItem.java=1607421293503
 configuration*?=8C4C10C83394C6428BE172087D133B78D504041F
 /mnt/c/Users/Stefano/new-icecream-shop-manager/SecondoAssignmentTOS/src/main/java/it/unipd/tos/business/exception/TooManyItemException.java=1607421293500
-/mnt/c/Users/Stefano/new-icecream-shop-manager/SecondoAssignmentTOS/src/main/java/it/unipd/tos/business/Bill.java=1607426501290
+/mnt/c/Users/Stefano/new-icecream-shop-manager/SecondoAssignmentTOS/src/main/java/it/unipd/tos/business/Bill.java=1607437349469
 /mnt/c/Users/Stefano/new-icecream-shop-manager/SecondoAssignmentTOS/src/main/java/it/unipd/tos/business/exception/NegativeBillException.java=1607421293494
 /mnt/c/Users/Stefano/new-icecream-shop-manager/SecondoAssignmentTOS/src/main/java/it/unipd/tos/business/exception/NoItemException.java=1607421293497
 /mnt/c/Users/Stefano/new-icecream-shop-manager/SecondoAssignmentTOS/src/main/java/it/unipd/tos/business/exception/NegativeQuantityException.java=1607421293496
 /mnt/c/Users/Stefano/new-icecream-shop-manager/SecondoAssignmentTOS/src/main/java/it/unipd/tos/model/User.java=1607422467677
-/mnt/c/Users/Stefano/new-icecream-shop-manager/SecondoAssignmentTOS/src/main/java/it/unipd/tos/business/exception/RestaurantBillException.java=1607421293499
+/mnt/c/Users/Stefano/new-icecream-shop-manager/SecondoAssignmentTOS/src/main/java/it/unipd/tos/business/exception/RestaurantBillException.java=1607433424219
