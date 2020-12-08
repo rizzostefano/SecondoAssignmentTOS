@@ -20,9 +20,11 @@ import org.junit.*;
 public class BillTest {
     private static final User
     //utente maggiorenne
-    U1 = new User("Paolo", "Lampredotto", LocalDate.of(1973, 5, 17)),
+    U1 = new User("Paolo", "Lampredotto",
+            LocalDate.of(1973, 5, 17)),
     //utente minorenne
-    U2 = new User("Joaquin", "Merdovich", LocalDate.of(2007, 9, 5));
+    U2 = new User("Joaquin", "Merdovich",
+            LocalDate.of(2007, 9, 5));
 
     private static final MenuItem
     m1 = new MenuItem("BUDINO", "Pinguino", 5.00),
@@ -39,21 +41,67 @@ public class BillTest {
         l1.add(m4);
         l1.add(m6);
         try {
-            assertEquals(13.50, Bill.getOrderPrice(l1, U1), 0.01);
+            assertEquals(13.50, Bill.getOrderPrice(l1, U1),
+                    0.01);
         }catch (RestaurantBillException e) {
             e.printStackTrace();
         }
     }
 
     @Test
-    public void getOrderPrice_ValidValues_NoDiscount_WithCommission() {
+    public void getOrderPrice_ValidValues_NoDiscountWithCommission()
+    {
+        List<MenuItem> l1 = new LinkedList<>();
+        l1.add(m3);
+        l1.add(m4);
+        try {
+            assertEquals(10.00, Bill.getOrderPrice(l1, U1),
+                    0.01);
+        }catch (RestaurantBillException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Test
+    public void getOrderPrice_ValidValues_WithDiscountNoCommission()
+    {
+        List<MenuItem> l1 = new LinkedList<>();
+        l1.add(m3);
+        l1.add(m4);
+        l1.add(m3);
+        l1.add(m4);
+        l1.add(m3);
+        l1.add(m4);
+        try {
+            assertEquals(27.0, Bill.getOrderPrice(l1, U1),
+                    0.01);
+        }catch (RestaurantBillException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Test
+    public void getOrderdPrice_ValidValues_WithDiscountWithCommission()
+    {
         List<MenuItem> l1 = new LinkedList<>();
         l1.add(m1);
         l1.add(m6);
         try {
-            assertEquals(7.50, Bill.getOrderPrice(l1, U1), 0.01);
+            assertEquals(7.50, Bill.getOrderPrice(l1, U1),
+                    0.01);
         }catch (RestaurantBillException e) {
             e.printStackTrace();
         }
+    }
+
+    @Test
+    public void getLeastExpensiveIceCreamPrice_ValidValues(){
+        List<MenuItem> l1 = new LinkedList<>();
+        l1.add(m2);
+        l1.add(m3);
+        l1.add(m4);
+        l1.add(m5);
+        assertEquals(3.00,
+                Bill.getLeastExpensiveIceCreamPrice(l1), 0.01);
     }
 }
