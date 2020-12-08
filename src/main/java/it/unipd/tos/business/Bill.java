@@ -11,9 +11,8 @@ import java.util.List;
 
 
 public class Bill {
-
     public static final double
-            IMPORTO_MINIMO_SENZA_COMMISSIONE = 10.00;
+      IMPORTO_MINIMO_SENZA_COMMISSIONE = 10.00;
 
     public static double getLeastExpensiveIceCreamPrice(List<MenuItem> l) {
         double min=10000000;
@@ -42,6 +41,10 @@ public class Bill {
         if (iceCreamCounter >5) {
             discount=getLeastExpensiveIceCreamPrice(itemsOrdered)*0.5;
         }
-        return sum-discount;
+        sum-=discount;
+        if (sum >=50) {
+            sum-=sum*0.10;
+        }
+        return sum;
     }
 }

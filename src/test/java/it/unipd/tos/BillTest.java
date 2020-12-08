@@ -72,8 +72,13 @@ public class BillTest {
         l1.add(m4);
         l1.add(m3);
         l1.add(m4);
+        l1.add(m2);
+        l1.add(m2);
+        l1.add(m2);
+        l1.add(m2);
+
         try {
-            assertEquals(27.0, Bill.getOrderPrice(l1, U1),
+            assertEquals(51.3, Bill.getOrderPrice(l1, U1),
                     0.01);
         }catch (RestaurantBillException e) {
             e.printStackTrace();
@@ -81,7 +86,7 @@ public class BillTest {
     }
 
     @Test
-    public void getOrderdPrice_ValidValues_WithDiscountWithCommission()
+    public void getOrderPrice_ValidValues_WithDiscountWithCommission()
     {
         List<MenuItem> l1 = new LinkedList<>();
         l1.add(m1);

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="it.unipd.tos.MenuItemTest" time="0" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="it.unipd.tos.MenuItemTest" time="0.001" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/adoptopenjdk-15-hotspot-amd64/lib"/>
-    <property name="sun.java.command" value="/mnt/c/Users/Stefano/new-icecream-shop-manager/SecondoAssignmentTOS/target/surefire/surefirebooter7154431675595299976.jar /mnt/c/Users/Stefano/new-icecream-shop-manager/SecondoAssignmentTOS/target/surefire 2020-12-08T12-03-32_614-jvmRun1 surefire17985466662036212616tmp surefire_04827057302725179520tmp"/>
+    <property name="sun.java.command" value="/mnt/c/Users/Stefano/new-icecream-shop-manager/SecondoAssignmentTOS/target/surefire/surefirebooter390242350277793767.jar /mnt/c/Users/Stefano/new-icecream-shop-manager/SecondoAssignmentTOS/target/surefire 2020-12-08T12-32-31_246-jvmRun1 surefire13925729556743276019tmp surefire_06218620847955105478tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/mnt/c/Users/Stefano/new-icecream-shop-manager/SecondoAssignmentTOS/target/test-classes:/mnt/c/Users/Stefano/new-icecream-shop-manager/SecondoAssignmentTOS/target/classes:/home/stefano/.m2/repository/junit/junit/4.8.2/junit-4.8.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -27,7 +27,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/mnt/c/Users/Stefano/new-icecream-shop-manager/SecondoAssignmentTOS/target/surefire/surefirebooter7154431675595299976.jar"/>
+    <property name="surefire.real.class.path" value="/mnt/c/Users/Stefano/new-icecream-shop-manager/SecondoAssignmentTOS/target/surefire/surefirebooter390242350277793767.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="15.0.1+9"/>
     <property name="user.name" value="stefano"/>
