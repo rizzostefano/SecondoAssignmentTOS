@@ -25,7 +25,7 @@ under the License.
     <language>en-us</language>
     <copyright>&#169;2020</copyright>
     <item>
-      <title>File: 8,
+      <title>File: 4,
              Errors: 0,
              Warnings: 0,
              Infos: 0
@@ -46,20 +46,6 @@ under the License.
           <tbody>
                           <tr>
                 <td>
-                  <a href="http://maven.apache.org/checkstyle.html#it.unipd.tos.business.exception.TooManyItemException.java">it/unipd/tos/business/exception/TooManyItemException.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://maven.apache.org/checkstyle.html#it.unipd.tos.model.MenuItem.java">it/unipd/tos/model/MenuItem.java</a>
                 </td>
                 <td>
@@ -74,49 +60,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://maven.apache.org/checkstyle.html#it.unipd.tos.business.exception.NoItemException.java">it/unipd/tos/business/exception/NoItemException.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://maven.apache.org/checkstyle.html#it.unipd.tos.business.exception.NegativeQuantityException.java">it/unipd/tos/business/exception/NegativeQuantityException.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://maven.apache.org/checkstyle.html#it.unipd.tos.business.exception.RestaurantBillException.java">it/unipd/tos/business/exception/RestaurantBillException.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://maven.apache.org/checkstyle.html#it.unipd.tos.business.exception.NegativeBillException.java">it/unipd/tos/business/exception/NegativeBillException.java</a>
                 </td>
                 <td>
                   0

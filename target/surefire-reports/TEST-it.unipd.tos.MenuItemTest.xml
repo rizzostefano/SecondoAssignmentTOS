@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/adoptopenjdk-15-hotspot-amd64/lib"/>
-    <property name="sun.java.command" value="/mnt/c/Users/Stefano/new-icecream-shop-manager/SecondoAssignmentTOS/target/surefire/surefirebooter390242350277793767.jar /mnt/c/Users/Stefano/new-icecream-shop-manager/SecondoAssignmentTOS/target/surefire 2020-12-08T12-32-31_246-jvmRun1 surefire13925729556743276019tmp surefire_06218620847955105478tmp"/>
+    <property name="sun.java.command" value="/mnt/c/Users/Stefano/new-icecream-shop-manager/SecondoAssignmentTOS/target/surefire/surefirebooter3897772562036581629.jar /mnt/c/Users/Stefano/new-icecream-shop-manager/SecondoAssignmentTOS/target/surefire 2020-12-08T18-01-51_990-jvmRun1 surefire8669873873844681184tmp surefire_09307763315401263390tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/mnt/c/Users/Stefano/new-icecream-shop-manager/SecondoAssignmentTOS/target/test-classes:/mnt/c/Users/Stefano/new-icecream-shop-manager/SecondoAssignmentTOS/target/classes:/home/stefano/.m2/repository/junit/junit/4.8.2/junit-4.8.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -27,7 +27,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/mnt/c/Users/Stefano/new-icecream-shop-manager/SecondoAssignmentTOS/target/surefire/surefirebooter390242350277793767.jar"/>
+    <property name="surefire.real.class.path" value="/mnt/c/Users/Stefano/new-icecream-shop-manager/SecondoAssignmentTOS/target/surefire/surefirebooter3897772562036581629.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="15.0.1+9"/>
     <property name="user.name" value="stefano"/>
