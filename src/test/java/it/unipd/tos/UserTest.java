@@ -13,14 +13,18 @@ import org.junit.*;
 
 public class UserTest {
 
-    private static final User 
-    U1 = new User("Paolo", "Lampredotto", LocalDate.of(1973, 5, 17)),
-    U2 = new User("Joaquin", "Merdovich", LocalDate.of(2007, 9, 5));
+    private static User U1, U2;
+
+    @Before
+    public void setUsers() {
+        U1 = new User("Paolo", "Rossi", LocalDate.of(1973, 5, 17));
+        U2 = new User("Giovanni", "Verdi", LocalDate.of(2007, 9, 5));
+    }
 
     @Test
     public void testGetUserName() {
-        assertEquals("Paolo Lampredotto", U1.getUserName());
-        assertEquals("Joaquin Merdovich", U2.getUserName());
+        assertEquals("Paolo Rossi", U1.getUserName());
+        assertEquals("Giovanni Verdi", U2.getUserName());
     }
 
     @Test
